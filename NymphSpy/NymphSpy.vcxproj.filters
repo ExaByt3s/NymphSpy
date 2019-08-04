@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core\Modules\File.cpp">
+      <Filter>Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Modules\Process.cpp">
+      <Filter>Core\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="NymphSpy.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{5cb866f4-3f91-4e1c-91a0-d31fce78027b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Includes">
+      <UniqueIdentifier>{d95b8325-3acd-4dec-8d5a-c0deb4079cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Modules">
+      <UniqueIdentifier>{6d9307a8-7fe2-4b9d-90b0-882b8c8e241a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SDK">
+      <UniqueIdentifier>{19de4fd3-1098-4d74-a961-230b64df8c1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Includes\File.h">
+      <Filter>Core\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Includes\Process.h">
+      <Filter>Core\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SDK\string.h">
+      <Filter>Core\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SDK\list.h">
+      <Filter>Core\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
